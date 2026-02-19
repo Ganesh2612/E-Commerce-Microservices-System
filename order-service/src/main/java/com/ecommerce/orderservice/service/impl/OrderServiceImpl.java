@@ -37,14 +37,14 @@ public class OrderServiceImpl implements OrderService {
     public OrderResponse placeOrder(OrderRequest request) {
         log.info("Placing order for productId: {}, quantity: {}", request.getProductId(), request.getQuantity());
 
-        // Step 1: Fetch product details from Product Service.
+        // Step 1: Fetch product details from Product Service
         ProductResponse product = productClient.getProductById(request.getProductId());
         if (product == null) {
             throw new ProductServiceException(
                     "Product Service is unavailable. Please try again later.");
         }
 
-        // Step 2: Reduce product quantity via Product Service.
+        // Step 2: Reduce product quantity via Product Service
         ProductResponse updatedProduct = productClient.reduceProductQuantity(
                 request.getProductId(), request.getQuantity());
         if (updatedProduct == null) {
@@ -52,7 +52,7 @@ public class OrderServiceImpl implements OrderService {
                     "Failed to reduce product stock. Please try again later.");
         }
 
-        // Step 3: Calculate total amount.
+        // Step 3: Calculate total amount
         double totalAmount = product.getPrice() * request.getQuantity();
 
         // Step 4: Save the order
@@ -114,5 +114,6 @@ public class OrderServiceImpl implements OrderService {
                 .build();
     }
 }
+
 
 
