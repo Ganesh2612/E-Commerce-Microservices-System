@@ -23,6 +23,7 @@ public class FallbackController {
                 ));
     }
 
+    
     @GetMapping("/order")
     public ResponseEntity<Map<String, Object>> orderFallback() {
         return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE)
@@ -33,4 +34,5 @@ public class FallbackController {
                 ));
     }
 }
+
 
