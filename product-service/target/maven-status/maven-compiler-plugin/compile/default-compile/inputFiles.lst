@@ -1,0 +1,12 @@
+C:\Users\260011105\Downloads\E-Commerce\product-service\src\main\java\com\ecommerce\productservice\exception\ErrorResponse.java
+C:\Users\260011105\Downloads\E-Commerce\product-service\src\main\java\com\ecommerce\productservice\dto\ProductResponse.java
+C:\Users\260011105\Downloads\E-Commerce\product-service\src\main\java\com\ecommerce\productservice\exception\ProductNotFoundException.java
+C:\Users\260011105\Downloads\E-Commerce\product-service\src\main\java\com\ecommerce\productservice\ProductServiceApplication.java
+C:\Users\260011105\Downloads\E-Commerce\product-service\src\main\java\com\ecommerce\productservice\repository\ProductRepository.java
+C:\Users\260011105\Downloads\E-Commerce\product-service\src\main\java\com\ecommerce\productservice\entity\Product.java
+C:\Users\260011105\Downloads\E-Commerce\product-service\src\main\java\com\ecommerce\productservice\exception\GlobalExceptionHandler.java
+C:\Users\260011105\Downloads\E-Commerce\product-service\src\main\java\com\ecommerce\productservice\controller\ProductController.java
+C:\Users\260011105\Downloads\E-Commerce\product-service\src\main\java\com\ecommerce\productservice\dto\ProductRequest.java
+C:\Users\260011105\Downloads\E-Commerce\product-service\src\main\java\com\ecommerce\productservice\exception\InsufficientStockException.java
+C:\Users\260011105\Downloads\E-Commerce\product-service\src\main\java\com\ecommerce\productservice\service\impl\ProductServiceImpl.java
+C:\Users\260011105\Downloads\E-Commerce\product-service\src\main\java\com\ecommerce\productservice\service\ProductService.java
